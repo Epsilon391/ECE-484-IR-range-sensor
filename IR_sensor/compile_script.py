@@ -30,7 +30,7 @@ else:
 
 level_of_compilation = int(sys.argv[1])
 
-#path_win_avr = 'c:/Users/jamiespa/Downloads/avr-gcc-11.1.0-x64-windows/bin/'
+# Replace this path with your own
 path_win_avr = 'C:/Users/Public/Arduino/avr-gcc/bin/'
 
 if level_of_compilation >= 1: 
