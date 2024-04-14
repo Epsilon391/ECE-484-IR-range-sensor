@@ -39,7 +39,7 @@ int main(void)
 ISR(TIMER1_COMPA_vect)
 {
     if (object_detected == 1) {
-        millis_counter++;
+        millis_counter++; 
     }
 }
 
