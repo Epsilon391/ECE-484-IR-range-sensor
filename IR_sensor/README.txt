@@ -14,3 +14,8 @@ IR sensor:
 
 Timer 1 is used: 
 	pins 9 and 10 may not work as expected
+
+TO USE:
+	open compile_script.py and replace line 34 with your own AVR path.
+	open a console with command window and navigate to your IR_sensor file path.
+	run the command in quotes: "python .\compile_script.py 4 com9" (change 9 to your com port).
